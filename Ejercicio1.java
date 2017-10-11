@@ -22,8 +22,7 @@ public class Ejercicio1 {
 			//2709360626
 			int inicio = 0;
 			for(int j = k; j <= numero.length(); j++) {							
-				String N_numero = numero.substring(inicio, j);
-				System.out.println(N_numero);				
+				String N_numero = numero.substring(inicio, j);								
 				int salto = 1, evalua = 0;				
 				long Maximo = 1;
 				for(int a = salto; a <= N_numero.length();a++) {					
